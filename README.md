@@ -4,7 +4,7 @@ In diesem Repo erstellt Adrian Pohl die Materialien für den von ihm geleiteten 
 
 Die Inhalte des gesamten IT2-Moduls sind im Modulhandbuch ([PDF](https://www.th-koeln.de/mam/bilder/studium/studiengaenge/f03/bib_inf_ma/malis_modulhandbuch_ab_sose2022.pdf)) auf den Seiten 39-40 beschrieben. Im folgenden werden die Inhalte dieses Teilmoduls laut Modulhandbuch vorgestellt.
 
-## "Learning Outcome" des Teilmoduls (laut Modulhandbuch)
+## Learning Outcome
 
 ### Was
 
