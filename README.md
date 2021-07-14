@@ -1,8 +1,8 @@
 # MALIS21 – Teilmodul IT2.1
 
-In diesem Repo erstellt Adrian Pohl die Materialien für den von ihm geleiteten Teil des Moduls IT2 im MALIS21-Studiengang an der TH Köln. Die Lehre in diesem Modul teilen sich Adrian Pohl und Claudia Piesche, wobei Claudia Pische die Inhalte zur digitalen Langzeitarchivierung und Langzeitverfügbarkeit übernimmt.
+In diesem Repo erstellt Adrian Pohl die Materialien für den von ihm geleiteten Teil des Moduls IT2 im MALIS21-Studiengang an der TH Köln. Die Lehre in diesem Modul teilen sich Adrian und Claudia Piesche, die die Inhalte zur digitalen Langzeitarchivierung und Langzeitverfügbarkeit übernimmt.
 
-Die Inhalte des gesamten IT2-Moduls sind im Modulhandbuch ([PDF][https://www.th-koeln.de/mam/bilder/studium/studiengaenge/f03/bib_inf_ma/malis_modulhandbuch_ab_sose2022.pdf]) auf den Seiten 39-40 beschrieben. Im folgenden werden die Inhalte dieses Teilmoduls laut Modulhandbuch vorgestellt.
+Die Inhalte des gesamten IT2-Moduls sind im Modulhandbuch ([PDF](https://www.th-koeln.de/mam/bilder/studium/studiengaenge/f03/bib_inf_ma/malis_modulhandbuch_ab_sose2022.pdf)) auf den Seiten 39-40 beschrieben. Im folgenden werden die Inhalte dieses Teilmoduls laut Modulhandbuch vorgestellt.
 
 ## "Learning Outcome" des Teilmoduls (laut Modulhandbuch)
 
