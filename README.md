@@ -36,3 +36,7 @@ Hausarbeit und Präsentation oder Kleines Projekt
 ## Präsenzzeit
 
 10 Stunden (überwiegend virtueller Lehre)
+
+- Mittwoch, 13.10. 9-12:15 Uhr (4 Unterrichtsstunden ; 15 min Pause inklusive)
+- Samstag, 13.11.  14-15:30 Uhr (2 UStd.)
+- Freitag, 28.1.22  9-12:15 Uhr (4 UStd. ; 15 min Pause inklusive)
