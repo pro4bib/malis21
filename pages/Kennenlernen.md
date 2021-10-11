@@ -8,15 +8,21 @@ title:: Kennenlernen
 * Seit 2019-10 Leitung Offene Infrastruktur
 * Co-Chair des [SWIB](https://swib.org)-Programmkomitees
 * Moderation [OER-Metadatengruppe DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe)
+## Mein Team
+* Offene Infrastruktur (bald: Dateinfrastruktur)
+* derzeit: zwei Bibliothekare, drei Entwickler\*innen
 ## Erfahrungen und Fähigkeiten
 * Projekt-/Produktmanagement
 * Datenmodellierung & Standards
-* Functional Review
+* Funktionales Review
 * kann keinen (guten) Softwarecode schreiben, ist aber integraler Bestandteil der Softwareentwicklung
 * Artikel, Blogposts (z.B. [hier](https://blog.lobid.org/)), Workshops & Präsentationen (siehe [Slides](https://slides.lobid.org/))
 ## Und Sie?
-*
-- LATER Kennenlernen Slides machen
+* Moodle-Profile habe ich mir angeschaut
+* Wir verzichten auf eine Vorstellungsrunde
+* Stattdessen ein paar Umfrage
+## Frage: Haben Sie schon Bekanntschaft mit der Kommandozeile gemacht?
+- DONE Kennenlernen Slides machen
 - NOW Fragen für den Anfang überlegen
   id:: 6163e15f-601d-4a7d-b285-093b753d4cc1
 - NOW Umfragen in Zoom anlegen (hängt ab von ((6163e15f-601d-4a7d-b285-093b753d4cc1)))
