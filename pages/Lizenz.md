@@ -1,0 +1,5 @@
+-
+  <p xmlns:sdo="https://schema.org">
+    <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" /></a>Insofern nicht anders angegeben und soweit rechtlich möglich hat <a rel="sdo:creator"
+       href="https://malis21.acka47.net"><span property="sdo:name">Adrian Pohl</span></a> alle Urheber- und verwandten Schutzrechte abgegeben für die <a href="https://malis21.acka47.net"><span property="sdo:name">Lehrmaterialien für das Teilmodul IT2 im Studiengang MALIS21 der TH Köln.</span></a>
+  (Das heißt nicht, dass der Autor keine angemesse Namensnennung und Rückverlinkung erwartet, wenn das Werk nachgenutzt wird. Er wird lediglich nicht mit rechtlichen Mitteln dagegen vorgehen.)</p>
