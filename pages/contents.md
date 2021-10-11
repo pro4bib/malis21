@@ -1,4 +1,7 @@
+- [[Kennenlernen]]
+- [[Leitlinien]]
 - [[Netzwerkprotokolle]]
 - [[Das Web]]
 - [[Standards für Metadaten]]
 - [[APIs]]
+- NOW Diese Contents-/Favoriten-Seite sollte als Indexseite unter https://malis21.acka47.net/ erscheinen
