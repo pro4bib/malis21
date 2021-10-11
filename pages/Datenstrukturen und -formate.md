@@ -1,5 +1,7 @@
 # Datenstrukturen und -formate
 ## Quiz: Welches Datenformat ist das?
+MARC21, Pica, MAB, Dublin Core, schema.org
+XML, binär, JSON, YAML,Turtle
 ## Datenstrukturen
 Definition, in welcher Struktur Daten abgelegt werden können
 * Feldbasiert: MARC, PICA, ...

@@ -15,4 +15,5 @@ deutsch: Programmierschnittstellen
 * Welche API-Endpunkte unterstützen welche [HTTP-Methoden](((615a1548-1998-41c0-b6fe-9e41393379b2)))? Welche Parameter werden unterstützt? Welche Struktur haben Daten, die an die API oder von ihr gesendet werden?
 * OpenAPI kann mehr als Dokumentation und unterstützt die Entwicklung, die Visualisierung und die direkte softwareseitige Nutzung einer API
 ## Übung
+	- Kennenlernen von jq:
 	- Abfrage von X nach Y

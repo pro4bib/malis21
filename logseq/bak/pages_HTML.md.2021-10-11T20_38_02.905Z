@@ -7,6 +7,6 @@
 * deutsch: Auszeichnungssprache
 ## Browser als HTML-Spielwiese 
 * Jede im Webbrowser aufgerufene HTML-Seite lässt sich dort manipulieren
-* Einfach `STRG+Umschalt+i), z.B.:
+* Einfach STRG+Umschalt+i), z.B.:
 ![image.png](../assets/image_1633903778319_0.png) 
 <small><a href="https://twitter.com/JoachimKreische/status/1366688403396440064">https://twitter.com/JoachimKreische/status/1366688403396440064</a>, manipuliert in Firefox</small>

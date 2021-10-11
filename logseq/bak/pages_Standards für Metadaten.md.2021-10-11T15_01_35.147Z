@@ -1,5 +1,5 @@
 # Standards für Metadaten
-## Standard:
+### Standard: 
 "etwas, was als mustergültig, modellhaft angesehen wird und wonach sich anderes richtet; Richtschnur, Maßstab, Norm"
 <small>(<a href="https://www.duden.de/rechtschreibung/Standard_Norm_Richtmasz_Guete">Duden</a>)</small>
 ## Arten von Standards
@@ -15,4 +15,5 @@ De-Facto-Standard
 * [[Zeichenkodierungen]]
 * [[Datenstrukturen und -formate]]
 * [[Datenmodelle]]
+## Werkzeuge
 	-

@@ -8,10 +8,12 @@ title:: Kennenlernen
 * Seit 2019-10 Leitung Offene Infrastruktur
 * Co-Chair des [SWIB](https://swib.org)-Programmkomitees
 * Moderation [OER-Metadatengruppe DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe)
-## Mein Team
-* Offene Infrastruktur (bald: Dateinfrastruktur)
-* derzeit: zwei Bibliothekare, drei Entwickler\*innen
-## Erfahrungen und Fähigkeiten
+## Offene Infrastruktur
+Nutzung und Pflege von Infrastruktur für die Publikation strukturierter Daten im Web:
+* Offene Webstandards und darauf aufsetzend kooperative Entwicklung von Spezifikationen, z.b [AMB](https://dini-ag-kim.github.io/lrmi-profile/draft/)
+* Transformation von Alt- und Fremddaten in web-kompatible Strukturen (mit [Metafacture](https://metafacture.org))
+* Publikation strukturierter Daten im Web inkl. APIs ([lobid](https://lobid.org), [OERSI](https://oersi.de), [Skohub](https://skohub.io))
+## Adrians Schwerpunkte
 * Projekt-/Produktmanagement
 * Datenmodellierung & Standards
 * Funktionales Review
