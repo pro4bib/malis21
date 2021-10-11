@@ -164,7 +164,7 @@
  :default-home {}
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
- :favorites ("Kennenlernen" "Allgemeine Informationen" "Netzwerkprotokolle" "Das Web" "Standards für Metadaten" "APIs" "ToDos" "Lizenz")
+ :favorites ("Kennenlernen" "Allgemeine Informationen" "Themenüberblick" "Netzwerkprotokolle" "Das Web" "Standards für Metadaten" "APIs" "ToDos" "Lizenz")
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

@@ -1,5 +1,5 @@
 # Standards für Metadaten
-### Standard: 
+## Standard:
 "etwas, was als mustergültig, modellhaft angesehen wird und wonach sich anderes richtet; Richtschnur, Maßstab, Norm"
 <small>(<a href="https://www.duden.de/rechtschreibung/Standard_Norm_Richtmasz_Guete">Duden</a>)</small>
 ## Arten von Standards
@@ -16,4 +16,7 @@ De-Facto-Standard
 * [[Datenstrukturen und -formate]]
 * [[Datenmodelle]]
 ## Werkzeuge
+	-
+	- [JSON Schema](https://json-schema.org/understanding-json-schema/): Für die Modellierung, Validierung von JSON-Daten und die Generierung von Webformularen
+	- Werkzeuge für die Datentransformation:
 	-
