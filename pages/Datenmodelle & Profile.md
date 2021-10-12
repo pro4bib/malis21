@@ -23,7 +23,6 @@ title:: Datenmodelle & Profile
 * mehr Interoperabilität mit Anwendungen, die auf die gleichen Datenmodelle zurückgreifen
 - ![](https://slides.lobid.org/dcmi2020/img/baker-coyle-swib19-slide04.png){:width 600}
   <small>Quelle: <a href="https://swib.org/swib19/slides/04_coyle_design-for-simple-application.pdf">Tom Baker, Karen Coyle (2019): Design for simple application profiles, SWIB19, Slide 4</a></small>
-## Ein aktuelles Beispiel: AMB
-* [Allgemeines Metadatenprofil für Bildungsressourcen](https://w3id.org/kim/lrmi-profile/draft/) (fortgeschrittener Entwurf)
-* Entwickelt innerhalb der [OER-Metadatengruppe der DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe)
-* Verfügbar als [[JSON Schema]] und HTML-Spezifikation
+## Beispiel-Profile
+* [Allgemeines Metadatenprofil für Bildungsressourcen](https://w3id.org/kim/lrmi-profile/draft/) (fortgeschrittener Entwurf), entwickelt innerhalb der [OER-Metadatengruppe der DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe), verfügbar als [[JSON Schema]] und HTML-Spezifikation
+* Datenmodell der British Library [Überblick](http://www.bl.uk/bibliographic/pdfs/bldatamodelbook.pdf) (PDF)

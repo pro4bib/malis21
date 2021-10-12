@@ -14,4 +14,4 @@
 * Angesiedelt auf der Anwendungsebene des Internet, Übergang zur Vermittlungsebene (IP)
 ### [[HTTP]] ist das Transportprotokoll des Web auf der Anwendungsschicht des Internet.
 - ![](https://www.w3.org/20/img/event/0O4A8746_large.jpg){:width 700}
-  Der Vater des Web und einer der Elternteile des Internet, ©W3C ([Quelle](https://www.w3.org/20/img/event/0O4A8746_large.jpg))
+  Der [Vater des Web](https://de.wikipedia.org/wiki/Tim_Berners-Lee) und [einer der Elternteile des Internet](https://de.wikipedia.org/wiki/Vinton_G._Cerf), ©W3C ([Quelle](https://www.w3.org/20/img/event/0O4A8746_large.jpg))

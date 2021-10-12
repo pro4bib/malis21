@@ -1,11 +1,13 @@
+## Dokumentation & Fragen in HedgeDoc
+-> **[https://pad.gwdg.de/malis21-it2.1](https://pad.gwdg.de/malis21-it2.1)**
 ## Werdegang
-* ![ORCIDiD_icon32x32.gif](../assets/ORCIDiD_icon32x32_1633939078853_0.gif){:height 79, :width 50} https://orcid.org/0000-0001-9083-7442 
+* ![ORCIDiD_icon32x32.gif](../assets/ORCIDiD_icon32x32_1633939078853_0.gif){:height 32, :width 32} https://orcid.org/0000-0001-9083-7442 
 * Magister Kommunikationswissenschaft und Philosophie an der RWTH Aachen
 * MALIS09-Absolvent ([Master Thesis](http://eprints.rclis.org/16175/))
-* Seit 2008 im hbz
-* Seit 2019-10 Leitung Offene Infrastruktur
+* Seit 2008 im hbz, seit 2019-10 Leitung Offene Infrastruktur
 * Co-Chair des [SWIB](https://swib.org)-Programmkomitees
 * Moderation [OER-Metadatengruppe DINI AG KIM](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe)
+* zum 1. Mal MALIS-Lehre
 ## Offene Infrastruktur
 Nutzung und Pflege von Infrastruktur für die Publikation strukturierter Daten im Web:
 * Offene Webstandards und darauf aufsetzend kooperative Entwicklung von Spezifikationen, z.b [AMB](https://dini-ag-kim.github.io/lrmi-profile/draft/)
