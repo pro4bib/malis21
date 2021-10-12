@@ -11,6 +11,7 @@
 - [[Standards für Metadaten]]
 	- [[Zeichenkodierungen]]
 	- [[Datenstrukturen und -formate]]
-	- [[Datenmodelle]]
+	- [[Datenmodelle & Profile]]
 - [[APIs]]
+- [[Übungen]]
 - [[Lizenz]]

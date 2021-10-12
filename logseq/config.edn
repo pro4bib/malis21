@@ -164,7 +164,7 @@
  :default-home {:page "Contents"}
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
- :favorites ["ToDos"]
+ :favorites ["Datenmodelle & Profile" "ToDos"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

@@ -17,5 +17,5 @@ De-Facto-Standard
 ## Standards für Metadaten
 * [[Zeichenkodierungen]]
 * [[Datenstrukturen und -formate]]
-* [[Datenmodelle]]
+* [[Datenmodelle & Profile]]
 	-

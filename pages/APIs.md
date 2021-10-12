@@ -11,9 +11,32 @@ deutsch: Programmierschnittstellen
   vs.
   vollständige Unterstützung von CRUD-Operationen: Create, Read, Update, Delete
 ## API-Dokumentation häufig mit [OpenAPI](https://www.openapis.org/)
-* kompatibel mit [[JSON Schema]]
+* kompatibel mit [[JSON Schema]], kann aber auch als YAML serialisiert werden (z.B. [OERSI-API](https://gitlab.com/oersi/oersi-backend/-/blob/master/src/main/resources/model/api.yaml))
 * Welche API-Endpunkte unterstützen welche [HTTP-Methoden](((615a1548-1998-41c0-b6fe-9e41393379b2)))? Welche Parameter werden unterstützt? Welche Struktur haben Daten, die an die API oder von ihr gesendet werden?
 * OpenAPI kann mehr als Dokumentation und unterstützt die Entwicklung, die Visualisierung und die direkte softwareseitige Nutzung einer API
-## Übung
-	- Kennenlernen von jq:
-	- Abfrage von X nach Y
+## Website + API vs. Website = API
+* Siehe [Verborg, Ruben (2013): The lie of the API](https://ruben.verborgh.org/blog/2013/11/29/the-lie-of-the-api/)
+* Umschalten zwischen Endnutzer\*innen- und Entwickler\*innen-Oberfläche per Knopfdruck, Parameter und Content Negotiation ist sehr nützlich und hilfreich, sowohl für das Entiwcklungsteam als auch für Nutzer\*innen
+## Website=API: Beispiel 1
+siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API über die
+## Website=API: Beispiel 2
+https://lobid.org/resources/search?q=MALIS
+vs.
+`$ curl https://lobid.org/resources/search?q=MALIS`
+oder
+https://lobid.org/resources/search?q=MALIS&format=json
+## Website+APIs: Beispiel 1
+![image.png](../assets/image_1634068232195_0.png)
+## Website+API: Beispiel 2
+* Deutsche Digitale Bibliothek: https://labs.deutsche-digitale-bibliothek.de/app/ddbapi/
+## APIs nutzen mit curl & jq
+* curl hat sich ja bereits als nützlich erwiesen, für HTTP Requests
+* curl plus [jq](https://stedolan.github.io/jq/) eignet sich gut, um APIs und die darüber angebotenen Daten zu erforschen
+## Beispiele Open Textbook Library
+* die Titel der ersten zehn Ressourcen: `$ curl -H "accept: application/json" "https://open.umn.edu/opentextbooks/textbooks" | jq .data[].title`
+* die Subjects: `$ curl -H "accept: application/json" "https://open.umn.edu/opentextbooks/textbooks" | jq .data[].subjects[].name`
+*
+## lobid-Beispiele
+* `$ curl "https://lobid.org/resources/search?q=title%3AMALIS&size=100" | jq -r .member[].contribution[0].agent.label` -> Der Name des ersten Beitragenden bei Titeln mit "malis" im Titel
+* Auf der Kommandozeile lässt sich mit dem `|`-Zeichen (Pipe), der Output eines Kommandos als Input für das nächste nehmen, so dass wir die Namen sortieren und mehrere Vorkommen zählen können:
+`$ curl "https://lobid.org/resources/search?q=title%3AMALIS&size=100" | jq -r .member[].contribution[0].agent.label | sort | uniq -c | sort -nr

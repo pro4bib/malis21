@@ -1,7 +1,7 @@
-## Übung: Request JSON mit curl
-id:: 870fc3ef-9689-42ad-9707-7c169c4b72e1
-* **Frage:** Lässt sich die Liste der Open Textbook Library unter [https://open.umn.edu/opentextbooks/textbooks?page=1](https://open.umn.edu/opentextbooks/textbooks?page=1) auch als JSON bekommen?
-* **Aufgabe:** Finden Sie in der [IANA Liste der Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml) den Typ für JSON und formulieren Sie eine curl-Anfrage mit diesem Typ und der Open Textbook URL (siehe Anleitung in ((61645f8e-7f9f-4e08-95f0-45b0eca901f9))).
+- ## Übung: Request JSON mit curl
+  id:: 870fc3ef-9689-42ad-9707-7c169c4b72e1
+  * **Frage:** Lässt sich die Liste der Open Textbook Library unter [https://open.umn.edu/opentextbooks/textbooks?page=1](https://open.umn.edu/opentextbooks/textbooks?page=1) auch als JSON bekommen?
+  * **Aufgabe:** Finden Sie in der [IANA Liste der Media Types](https://www.iana.org/assignments/media-types/media-types.xhtml) den Typ für JSON und formulieren Sie eine curl-Anfrage mit diesem Typ und der Open Textbook URL (siehe Anleitung in ((61645f8e-7f9f-4e08-95f0-45b0eca901f9))).
 - ## Übung: Response Header auswerten mit curl
   id:: 6164943c-d95e-452e-8825-3afe059ced93
   * **Frage**: Lässt sich für eine ORCID JSON ausgeben?
@@ -14,3 +14,6 @@ id:: 870fc3ef-9689-42ad-9707-7c169c4b72e1
 ## Übung: HTML einer Webseite im Browser manipulieren
 id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
 * Editieren Sie eine Webseite Ihrer Wahl im Browser, wie beschrieben in ((61652072-e2cb-4ab8-abe4-78bd6194a7aa))
+## Übung: Open Textbook API abfragen mit curl & jq
+* **Frage**: Wie aktuell sind die Textbücher?
+* **Aufgabe**: 1.) Finden Sie in der API Doku ([hier](https://open.umn.edu/opentextbooks/discovery) verlinkt) die URL für die Liste der neuesten Bücher heraus. 2.) Holen Sie mit curl die JSON-Daten und filtern Sie mit jq das Feld mit dem Copyright-Jahr.
