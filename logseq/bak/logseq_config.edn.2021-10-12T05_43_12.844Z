@@ -161,10 +161,10 @@
  :ref/default-open-blocks-level 2
  :feature/enable-journals? false
  :graph/settings {:orphan-pages? true, :builtin-pages? false}
- :default-home {:page "Contents"}
+ :default-home {}
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy-MM-dd"
- :favorites ["ToDos"]
+ :favorites ("Kennenlernen" "Allgemeine Informationen" "Themenüberblick" "Netzwerkprotokolle" "Das Web" "Standards für Metadaten" "APIs" "ToDos" "Lizenz")
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

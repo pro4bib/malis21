@@ -8,5 +8,6 @@ Symbolen)
 * UTF-8 Encoding: `0xC3 0xA8`
 * UTF-16 Encoding: `0x00E8`
 * UTF-32 Encoding: `0x000000E8`
-- ![unicode-and-windows.png](../assets/unicode-and-windows_1633466337900_0.png)
-  <small>Quelle: <a href="https://en.wikipedia.org/wiki/Unicode">Unicode-Artikel in der englischsprachigen Wikipedia<a/></small>
+### Oft wird nicht unterschieden zwischen Unicode und UTF
+![unicode-and-windows.png](../assets/unicode-and-windows_1633466337900_0.png)
+<small>Quelle: <a href="https://en.wikipedia.org/wiki/Unicode">Unicode-Artikel in der englischsprachigen Wikipedia<a/></small>

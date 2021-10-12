@@ -1,15 +1,13 @@
-# URIs – Uniform Resource Identifier
--
 ## *Uniform* Resource Identifier
 * Einheitlichkeit durch Standardisierung ([RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986))
 ```
-         foo://example.com:8042/over/there?name=ferret#nose
-         \_/   \______________/\_________/ \_________/ \__/
-          |           |            |            |        |
-       scheme     authority       path        query   fragment
-          |   _____________________|__
-         / \ /                        \
-         urn:example:animal:ferret:nose
+       foo://example.com:8042/over/there?name=ferret#nose
+       \_/   \______________/\_________/ \_________/ \__/
+        |           |            |            |        |
+     scheme     authority       path        query   fragment
+        |   _____________________|__
+       / \ /                        \
+       urn:example:animal:ferret:nose
 ```
 ## Uniform *Resource* Identifier
 * Ressource = jedes mögliche Ding

@@ -1,8 +1,8 @@
-- [[Kennenlernen]]
-- [[Allgemeine Informationen]]
-- [[Themenüberblick]]
-- [[Netzwerkprotokolle]]
-- [[Das Web]]
+- [[Kennenlernen]] (15 min.)
+- [[Allgemeine Informationen]] (10 min.)
+- [[Themenüberblick]] (10 min.)
+- [[Netzwerkprotokolle]] (10 min.)
+- [[Das Web]] (60 min.)
 	- [[URIs]]
 	- [[HTTP]]
 	- [[HTML]]

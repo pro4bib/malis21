@@ -1,4 +1,8 @@
-# HTTP – Hyptertext Transfer Protocol
+- ## HTTP – *Hyptertext* Transfer Protocol
+  id:: 61652072-0b04-46a9-95b0-9c4ed57f9f78
+  * Ausdruck wurde in den 1960ern von [Ted Nelson](https://de.wikipedia.org/wiki/Theodor_Holm_Nelson) geprägt
+  * Grundidee: Schreiben/Denken und Publizieren in Form von Graphen, die sich mit Unterstützung von Maschinen auch leichte Weise beliebig anlegen und durchqueren lassen
+  * Die Ideen dahinter gehen u.a. zurück auf "[As we may think](https://de.wikipedia.org/wiki/As_We_May_Think)" von Vannevar Bush
 ## Geschichte (Ultrakurzfassung)
 * 1989 begann die Entwicklung durch Tim Berners-Lee gemeinsam mit URI/URL und HTML
 * aktuelle Version: HTTP/2 (seit Mai 2015)
@@ -56,12 +60,12 @@ id:: 61646058-743c-4d05-8397-233e3cf36757
 ## Beispiel: Response Header
 id:: 616497d8-dece-4c69-9d71-811c80aee545
 ```
-  $ curl -I http://th-koeln.de
-  HTTP/1.0 302 Found
-  Location: https://th-koeln.de/
-  Server: BigIP
-  Connection: Keep-Alive
-  Content-Length: 0
+$ curl -I http://th-koeln.de
+HTTP/1.0 302 Found
+Location: https://th-koeln.de/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
 ```
 ## Umleitungen folgen mit curl
 id:: 61649878-c8fe-4a4c-81a8-f910fe6760b7

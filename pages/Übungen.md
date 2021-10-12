@@ -11,5 +11,6 @@ id:: 870fc3ef-9689-42ad-9707-7c169c4b72e1
 ## Übung: Redirects folgen mit curl
 * **Frage**: Bekomme ich JSON von einer ORCID, wenn ich den Redirects folge?
 * **Aufgabe**: Ergänzen Sie die ORCID-Abfrage aus ((6164943c-d95e-452e-8825-3afe059ced93)) um die Option zum Folgen von Umleitungen (siehe ((61649878-c8fe-4a4c-81a8-f910fe6760b7))).
-- ## Übung: HTML einer Webseite im Browser manipulieren
-  id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
+## Übung: HTML einer Webseite im Browser manipulieren
+id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
+* Editieren Sie eine Webseite Ihrer Wahl im Browser, wie beschrieben in ((61652072-e2cb-4ab8-abe4-78bd6194a7aa))

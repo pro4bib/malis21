@@ -11,11 +11,12 @@ De-Facto-Standard
 * transparente Entwicklung
 * kostenfrei, weltweit zugänglich
 * die Anwendung des Standards unterliegt keinen Einschränkungen
-- ### Pluspunkt: Ein Problem lösen, dass noch nicht gelöst ist
-  ![xkcd classic on Standards (927)](https://imgs.xkcd.com/comics/standards.png)
-  <small><a href="https://xkcd.com/927/">Standards</a> by xkcd, CC-BY-NC</small>
 ## Standards für Metadaten
 * [[Zeichenkodierungen]]
 * [[Datenstrukturen und -formate]]
 * [[Datenmodelle]]
+## Werkzeuge
+	-
+	- [JSON Schema](https://json-schema.org/understanding-json-schema/): Für die Modellierung, Validierung von JSON-Daten und die Generierung von Webformularen
+	- Werkzeuge für die Datentransformation:
 	-

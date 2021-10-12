@@ -1,4 +1,3 @@
-# Netzwerkprotokolle
 ### Protokoll: "Festlegung von Standards und Konventionen für eine reibungslose Datenübertragung zwischen Computern"
 ([Duden](https://www.duden.de/rechtschreibung/Protokoll))
 ## Netzwerkprotokolle
@@ -10,6 +9,9 @@
 * das OSI-Modell ist "ein Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur" ([Wikipedia](https://de.wikipedia.org/w/index.php?title=OSI-Modell&oldid=215572834))
 - ![protokollschichten.png](../assets/protokollschichten_1633463610608_0.png)
   <small>Quelle: Wikipedia-Seite <a href="https://de.wikipedia.org/wiki/Internetprotokollfamilie">"Internetprotokollfamilie"</a></small>
-- Das Transportprotokoll des Web ist [[HTTP]]
+## Und DNS (Domain Name System)?
+* Übersetzung von Domain-Namen (z.B. `lobid.org`) in IP-Adresse (`193.30.112.187`).
+* Angesiedelt auf der Anwendungsebene des Internet, Übergang zur Vermittlungsebene (IP)
+### [[HTTP]] ist das Transportprotokoll des Web auf der Anwendungsschicht des Internet.
 - ![](https://www.w3.org/20/img/event/0O4A8746_large.jpg){:width 700}
-  Der Vater des Web und einer der Elternteile des Internet, © W3C
+  Der Vater des Web und einer der Elternteile des Internet, ©W3C ([Quelle](https://www.w3.org/20/img/event/0O4A8746_large.jpg))

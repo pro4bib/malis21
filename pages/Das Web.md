@@ -1,5 +1,4 @@
-# Das Web
-aka World Wide Web, WWW ≠ Internet
+## The Web, aka World Wide Web, WWW
 ## "vague but exciting"
 ![proposal.png](../assets/proposal_1633461830338_0.png) 
 Quelle: [http://info.cern.ch/Proposal.html](http://info.cern.ch/Proposal.html)
