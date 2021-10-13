@@ -52,7 +52,7 @@ PUT
 id:: 61645f8e-7f9f-4e08-95f0-45b0eca901f9
 * Bei einem HTTP Request kann ich im Accept Header angeben, welchen Media Type ich präferiere und der Server wird mir die Ressource entsprechend ausliefern, wenn er den Media Type untertützt
 * Request Header werden in curl mit der Option `-H` gesetzt, z.B: `$ curl -H "accept: {IANA Media Type}" "{url}"`
-* ((870fc3ef-9689-42ad-9707-7c169c4b72e1))
+* Übung: ((870fc3ef-9689-42ad-9707-7c169c4b72e1))
 ## Response Header & curl
 id:: 61646058-743c-4d05-8397-233e3cf36757
 * Auch eine HTTP Response beinhaltet Header.
@@ -67,6 +67,8 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 ```
+## Übung
+((6164943c-d95e-452e-8825-3afe059ced93))
 ## Umleitungen folgen mit curl
 id:: 61649878-c8fe-4a4c-81a8-f910fe6760b7
 * Wie [oben](((61633c54-3046-4ff3-aff1-4125dbf13d9b))) beschrieben, kann ein Server `3xx`-Codes zurückliefern mit einer Umleitung (Redirect) zu einer anderen Resource (meist `301 Moved Permanently` oder `302 Found` wie in ((616497d8-dece-4c69-9d71-811c80aee545))).
@@ -101,3 +103,5 @@ Connection: close
 Content-Type: text/html; charset=UTF-8
 Set-Cookie: BIGipServercms-public-live_prod_https=1594623627.47873.0000; path=/; Httponly; Secure
 ```
+## Übung
+((61652072-893a-4914-92e8-7d9d5fcfd878))
