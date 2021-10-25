@@ -14,6 +14,9 @@
 	- [[Datenmodelle & Profile]]
 - [[APIs]]
 - [[Übungen]]
+- Aufgaben
+	- [[Aufgabe 1.1: Erstellung eines JSON-Schemas zur Validierung vorgegebener Beispieldaten]]
+	- [[Aufgabe 1.2: Konzeption einer Prozessoptimierung]]
 - [[Lernmaterial]]
 - [[Installationstipps]]
 - [[Lizenz]]
