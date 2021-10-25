@@ -15,4 +15,5 @@
 - [[APIs]]
 - [[Übungen]]
 - [[Lernmaterial]]
+- [[Installationstipps]]
 - [[Lizenz]]
