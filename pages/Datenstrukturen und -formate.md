@@ -23,10 +23,10 @@
   650 	#0$aTelevision pilot programs$zUnited States$vCatalogs.
   650 	#0$aTelevision serials$zUnited States$vCatalogs.
   ```
-### Format 1
-collapsed:: true
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
+- ### Format 1
+  collapsed:: true
+  ```xml
+  <?xml version="1.0" encoding="UTF-8"?>
   <record xmlns="http://www.loc.gov/MARC21/slim" type="Bibliographic">
     <leader>00000pam a2200000 c 4500</leader>
     <controlfield tag="001">1135496102</controlfield>
@@ -261,7 +261,7 @@ collapsed:: true
       <subfield code="a">ra</subfield>
     </datafield>
   </record>
-```
+  ```
 - ### Format 2
   collapsed:: true
   ```turtle
@@ -1131,45 +1131,45 @@ collapsed:: true
      </lido:objectMeasurementsSet>
   </lido:objectMeasurementsWrap>
   ```
-### Format 5
-collapsed:: true
-```
-layout: post
-title: "SkoHub: Enabling KOS-based content subscription"
-date: 2019-05-17
-author: Adrian Pohl, Felix Ostrowski
-tags: skohub
-canonical_url: 'https://blog.skohub.io/2019-05-17-skohub/'
-```
-### Format 6
-collapsed:: true
-```
-### 00001nM2.01000024      h
-001 1879928
-004 19970908
-025a55.190476.3
-030 a|1ibr|a|||37
-036aDE
-050 a
-070aekz
-100bRenner, Rolf G. ¬[Hrsg.]¬
-331 Denken, das die Welt veränderte
-335 Schlüsseltexte der europäischen Geistes- und Wissenschaftsgeschichte
-359 hrsg. und eingel. von Rolf Günter Renner
-410 Freiburg im Brsg.
-412 Herder
-451bKlassiker des Denkens
-540aISBN 3-451-22406-2 (2 Bd. zs.) fest geb. : 78,00
-580dX
-902g  4015701-5           Europa
-902s1 4066562-8           Wissenschaft
-902z11€Geschichte
-902f11€Quelle
-903 2134
-907g  4015701-5           Europa
-907z11€Geistesgeschichte
-907f11€Quelle
-```
+- ### Format 5
+  collapsed:: true
+  ```
+  layout: post
+  title: "SkoHub: Enabling KOS-based content subscription"
+  date: 2019-05-17
+  author: Adrian Pohl, Felix Ostrowski
+  tags: skohub
+  canonical_url: 'https://blog.skohub.io/2019-05-17-skohub/'
+  ```
+- ### Format 6
+  collapsed:: true
+  ```
+  ### 00001nM2.01000024      h
+  001 1879928
+  004 19970908
+  025a55.190476.3
+  030 a|1ibr|a|||37
+  036aDE
+  050 a
+  070aekz
+  100bRenner, Rolf G. ¬[Hrsg.]¬
+  331 Denken, das die Welt veränderte
+  335 Schlüsseltexte der europäischen Geistes- und Wissenschaftsgeschichte
+  359 hrsg. und eingel. von Rolf Günter Renner
+  410 Freiburg im Brsg.
+  412 Herder
+  451bKlassiker des Denkens
+  540aISBN 3-451-22406-2 (2 Bd. zs.) fest geb. : 78,00
+  580dX
+  902g  4015701-5           Europa
+  902s1 4066562-8           Wissenschaft
+  902z11€Geschichte
+  902f11€Quelle
+  903 2134
+  907g  4015701-5           Europa
+  907z11€Geistesgeschichte
+  907f11€Quelle
+  ```
 - ### Format 7
   collapsed:: true
   ```
@@ -1183,9 +1183,9 @@ collapsed:: true
   "Kunowski, Gertrud von",1877,1960,personal
   "Tappolet, Bertha",1897,1947,personal
   ```
-### Format 8
-collapsed:: true
-```html
+- ### Format 8
+  collapsed:: true
+  ```html
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -1209,7 +1209,7 @@ collapsed:: true
       "url": "http://www.janedoe.com"
     }
     </script>
-```
+  ```
 ## Datenstrukturen
 Definition, in welcher Struktur Daten abgelegt werden können
 * Feldbasiert: MARC, PICA, ...

@@ -14,4 +14,5 @@
 	- [[Datenmodelle & Profile]]
 - [[APIs]]
 - [[Übungen]]
+- [[Lernmaterial]]
 - [[Lizenz]]
