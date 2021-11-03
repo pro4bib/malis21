@@ -20,4 +20,4 @@ id:: 6176d72a-fe2f-4658-95ba-17c17242c017
 	  1. Installation des ((6176f76b-0901-43cd-8743-a74351e1a6c1))
 	  2. Starten des WSL mit Windowstaste und Eingabe von "WSL", Klick auf das Kommando
 	  3. `$ sudo apt update`
-	  3. `$ sudo apt install jq`
+	  4. `$ sudo apt install jq`
