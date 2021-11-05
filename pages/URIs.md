@@ -1,5 +1,6 @@
 ## *Uniform* Resource Identifier
-* Einheitlichkeit durch Standardisierung ([RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986))
+id:: 6163df71-544f-4e45-908c-80ba1432a40f
+Einheitlichkeit durch Standardisierung ([RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986))
 ```
        foo://example.com:8042/over/there?name=ferret#nose
        \_/   \______________/\_________/ \_________/ \__/

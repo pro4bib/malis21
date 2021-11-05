@@ -1,28 +1,35 @@
 # JSON
 [[JavaScript]] Object Notation
+## JSON
+* Ein einfaches Key-Value-Format für strukturierte Daten
+* Key ist immer ein String
+* Value ist String, Boolean, Array oder Object
+* `{ "foo": "bar" }`
+* Quelle: [RFC 8259](https://tools.ietf.org/html/rfc8259)
+-
 #### Ein JSON-Dokument
 ```json
 {
-  "name":"JSON",
-  "type":"Presentation",
-  "tags":[
-    "JSON",
-    "JSON Schema"
-  ],
-  "creator":[
-    {
-      "name":"Adrian Pohl",
-      "type":"Person",
-      "affiliation":{
-        "type":"Organization",
-        "name":"hbz"
-      }
-    },
-    {
-      "name":"logseq",
-      "type":"Application"
+"name":"JSON",
+"type":"Presentation",
+"tags":[
+  "JSON",
+  "JSON Schema"
+],
+"creator":[
+  {
+    "name":"Adrian Pohl",
+    "type":"Person",
+    "affiliation":{
+      "type":"Organization",
+      "name":"hbz"
     }
-  ]
+  },
+  {
+    "name":"logseq",
+    "type":"Application"
+  }
+]
 }
 ```
 ## De-facto Standard für Daten im Web

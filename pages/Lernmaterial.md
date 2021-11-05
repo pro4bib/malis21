@@ -9,3 +9,5 @@
 - **curl**:
 	- curl für Windows Einführung: https://www.ionos.de/digitalguide/server/tools/einstieg-in-curl-in-windows
 	- *Everything curl – an extensive guide for all things curl*: https://everything.curl.dev/ Hier insbesondere interessant: [Networking simplified](https://everything.curl.dev/protocols/network), [HTTP basics](https://everything.curl.dev/http/basics), [HTTP Redirects](https://everything.curl.dev/http/redirects)
+- Web-APIs
+	- Ritika Atal (2020): CRUD mapping ro HTTP Verbs, https://medium.com/@ritika.atal.work/crud-mapping-to-http-verbs-354a3c0009f5
