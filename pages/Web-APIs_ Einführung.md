@@ -18,8 +18,8 @@ deutsch: Programmierschnittstellen
 ## Und wie APIs im Web bereitstellen? 
 * heutzutage meist [[JSON]] über [[HTTP]] 
 * können anwendungsspezifisch sein (vgl. [lobid](https://lobid.org))
-* oder auf geteilten Standards beruhen (z.B. [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA))
-- Bloße Lese-APIs (lassen sich gut mit einem [[Suchmaschinentechnologie]] umsetzen)
+* oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA))
+- Bloße Lese-APIs (lassen sich gut mit [[Suchmaschinentechnologie]] umsetzen)
   vs.
   vollständige Unterstützung von CRUD-Operationen: Create, Read, Update, Delete
 ## Rückblick: URIs
@@ -34,27 +34,106 @@ urn:example:animal:ferret:nose
 ```
 ((6163df71-544f-4e45-908c-80ba1432a40f))
 ## Basis von Web-APIs: URIs & HTTP
-* Service
-* Path: Wo sind API Endpoints?
-* Query-Parameter: Wie kann ich eine Abfrage formulieren?
+* Path: Welche API-Endpoints gibt es?
+* Parameter: z.B. `q` oder `search` für Suchabfragen oder `from`/`page` und `size` für Paging und Anzahl der Suchergebnisse
 ## HTTP-Methoden & ihre Funktionen
 Create: POST (manchmal PUT)
 Read: GET
 Update: PUT (komplette Ressource), PATCH (teilweises Update), POST
 Delete: DELETE
+## JSON
+[[JavaScript]] Object Notation
+## JSON
+* Ein einfaches Key-Value-Format für die Speicherung und den Austausch strukturierter Daten
+* Key ist immer ein String
+* Value ist String, Boolean, Array oder Object
+* `{ "foo": "bar" }`
+* Quelle: [RFC 8259](https://tools.ietf.org/html/rfc8259)
+-
+## Ein JSON-Dokument
+```json
+{
+  "degreeProgramme": "MALIS",
+  "module": "IT2",
+  "topics": [
+    "LZV",
+    "Web APIs",
+    "Linked Open Data"
+  ],
+  "instructor": [
+    {
+      "id": 8,
+      "name": "Adrian Pohl",
+      "affiliation": "hbz"
+    },
+    {
+      "id": 15,
+      "name": "Claudia Piesche",
+      "affiliation": "USB Köln"
+    }
+  ]
+}
+```
+## Das gleiche Dokument
+```json
+{"degreeProgramme":"MALIS","module":"IT2","topics":["LZV","Web APIs","Linked Open Data"],"instructor":[{"id":8,"name":"Adrian Pohl","affiliation":"hbz"},{"id":15,"name":"Claudia Piesche","affiliation":"USB Köln"}]}
+```
+Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Menschen und werden beim Lesen durch Maschinen weggekürzt.
+## De-facto Standard für Daten im Web
+* JSON über [[HTTP]] ist  seit langem *der* Standard für Web APIs, mit dem jede:r Entwickler:in vertraut ist 
+* SIehe z.B. Target, Sinclair (2017): The Rise and Rise of JSON. URL: https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html
+## Übung: JSON-Fehler erkennen
+## Fehler 1
+```json
+{
+  "Hello": "World"
+```
+## Fehler 2
+```json
+{
+  "degreeProgramme": "MALIS21"
+  "module": "IT2"
+}
+```
+## Fehler 3
+```json
+{
+  "degreeProgramme": "MALIS21",
+  "module: "IT2"
+}
+```
+## Fehler 4
+```json
+{
+  "degreeProgramme": "MALIS21",
+  "module": "IT2",
+  "instructor": [
+    {
+      "name": "Adrian Pohl",
+      "affiliation": "hbz"
+    },
+    {
+      "name": "Claudia Piesche",
+      "affiliation": "USB Köln"
+    ]
+  }
+}
+```
+## Übung: ((8c720f03-8710-4200-adbc-cae969efc3a2))
 ## Website + API vs. Website = API
 * Manchmal ist die API integraler Bestandteil einer Website, manchmal ist sie separat (siehe auch [Verborg, Ruben (2013): The lie of the API](https://ruben.verborgh.org/blog/2013/11/29/the-lie-of-the-api/))
- Umschalten zwischen Endnutzer\*innen- und Entwickler\*innen-Oberfläche per Knopfdruck, Parameter und Content Negotiation ist sehr nützlich und hilfreich, sowohl für das Entiwcklungsteam als auch für Nutzer\*innen
-## Website=API: Beispiel 1
-siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API identisch sind, nur wahlweise HTML oder JSOn liefern
-## Website=API: Beispiel 2
+* Leichtes Umschalten zwischen HTML und JSON kann sehr nützlich sein, sowohl für das Entwicklungsteam als auch für Nutzer\*innen
+* Je nach Komplexität des Systems und den angebotenen Funktionen können separate APIs sinnvoll sein.
+## Beispiel 1: Open Textbook Library
+siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API identisch sind, nur wahlweise HTML oder JSON liefern
+## Beispiel 2: lobid
 https://lobid.org/resources/search?q=MALIS
 vs.
 `$ curl https://lobid.org/resources/search?q=MALIS`
 oder
 https://lobid.org/resources/search?q=MALIS&format=json
-## Website+APIs: Beispiel 1
+## Beispiel 3: Europeana
 ![image.png](../assets/image_1634068232195_0.png)
-## Website+API: Beispiel 2
+Quelle: [https://pro.europeana.eu/page/apis](https://pro.europeana.eu/page/apis)
+## Beispiel 4: DDB
 * Deutsche Digitale Bibliothek: https://labs.deutsche-digitale-bibliothek.de/app/ddbapi/
-## Übung

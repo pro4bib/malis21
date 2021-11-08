@@ -38,13 +38,13 @@ angeforderte Daten zurück
 401 Unauthorized
 404 Not Found
 500 Internal Server Error
-## HTTP-Methoden
-id:: 615a1548-1998-41c0-b6fe-9e41393379b2
-Insgesamt neun Stück, hier die wichtigsten:
-GET
-DELETE
-POST
-PUT
+- ## HTTP-Methoden
+  id:: 615a1548-1998-41c0-b6fe-9e41393379b2
+  Insgesamt neun Stück, hier die wichtigsten:
+  GET
+  DELETE
+  POST
+  PUT
 ## Tools
 * [curl](https://curl.se/): umfassendes Tool zum Übertragen von Dateien in Rechnernetzen und [eines der weltweit meistgenutzten Open-Source-Projekte](https://daniel.haxx.se/blog/2018/09/17/the-worlds-biggest-curl-installations/). Kann als Programmbibliothek, auf der Kommandozeile oder im Browser genutzt werden unter [https://reqbin.com/curl].
 * [wget](https://de.wikipedia.org/wiki/Wget): ähnlich wie curl, kann allerdings nur `GET` requests.

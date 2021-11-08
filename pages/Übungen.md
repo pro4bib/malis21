@@ -12,9 +12,17 @@ id:: 870fc3ef-9689-42ad-9707-7c169c4b72e1
   id:: 61652072-893a-4914-92e8-7d9d5fcfd878
   * **Frage**: Bekomme ich JSON von einer ORCID, wenn ich den Redirects folge?
   * **Aufgabe**: Ergänzen Sie die ORCID-Abfrage aus ((6164943c-d95e-452e-8825-3afe059ced93)) um die Option zum Folgen von Umleitungen (siehe ((61649878-c8fe-4a4c-81a8-f910fe6760b7))).
-- ## HTML einer Webseite im Browser manipulieren
-  id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
-  * Editieren Sie eine Webseite Ihrer Wahl im Browser, wie beschrieben in ((61652072-e2cb-4ab8-abe4-78bd6194a7aa))
-## Open Textbook API abfragen mit curl & jq
-* **Frage**: Wie aktuell sind die Textbücher?
-* **Aufgabe**: 1.) Finden Sie in der API Doku ([hier](https://open.umn.edu/opentextbooks/discovery) verlinkt) die URL für die Liste der neuesten Bücher heraus. 2.) Holen Sie mit curl die JSON-Daten und filtern Sie mit jq das Feld mit dem Copyright-Jahr.
+## HTML einer Webseite im Browser manipulieren
+id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
+* Editieren Sie eine Webseite Ihrer Wahl im Browser, wie beschrieben in ((61652072-e2cb-4ab8-abe4-78bd6194a7aa))
+- ## JSON schreiben
+  id:: 8c720f03-8710-4200-adbc-cae969efc3a2
+  * Öffnen Sie den JSON Editor unter https://jsonformatter.org/json-editor
+  * Schreiben Sie ein JSON-Dokument, das einen String, ein Objekt und ein Array von Strings enthält
+  * Klicken Sie auf "Format JSON", um zu sehen, ob das JSON valide ist
+- ## Open Textbook API abfragen mit curl & jq
+  id:: 61764d87-de9b-44a0-b6b0-5fd5bdb2b1d5
+  * **Frage**: Wie aktuell sind die Textbücher?
+  * **Aufgabe**:
+    1.) Finden Sie in der API Doku ([hier](https://open.umn.edu/opentextbooks/discovery) verlinkt) die URL für die Liste der neuesten Bücher heraus.
+    2.) Holen Sie mit curl die JSON-Daten und filtern Sie mit jq das Feld mit dem Copyright-Jahr.
