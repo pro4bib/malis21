@@ -13,3 +13,4 @@
   :LOGBOOK:
   CLOCK: [2021-11-10 Wed 20:52:27]
   :END:
+- LATER Fragen, ob Aufzeichnung ok ist -> aufzeichnen
