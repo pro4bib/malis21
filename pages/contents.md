@@ -14,6 +14,7 @@
 	- [[Datenmodelle & Profile]]
 - [[Web-APIs: Einführung]]
 - [[Web-APIs: Nutzung]]
+- [[JSON Schema]]
 - [[Übungen]]
 - Aufgaben
 	- [[Aufgabe 1.1: Erstellung eines JSON-Schemas zur Validierung vorgegebener Beispieldaten]]

@@ -1,3 +1,5 @@
+title:: Web-APIs: Einführung
+
 ## Bibliotheken sind Software
 > Our collections and services are delivered primarily via software. [...] The choices we make in the development, selection, and implementation of this software [...] define the limits of our content and services. We can only be as good as our software.
 — Cody Hanson, [Libraries are Software](http://codyhanson.com/writing/software.html)
@@ -46,32 +48,32 @@ Delete: DELETE
 ## JSON
 * Ein einfaches Key-Value-Format für die Speicherung und den Austausch strukturierter Daten
 * Key ist immer ein String
-* Value ist String, Boolean, Array oder Object
-* `{ "foo": "bar" }`
+* Value ist String, Boolean, Number, Null, Array, Object
+* `{ "key": "value" }`
 * Quelle: [RFC 8259](https://tools.ietf.org/html/rfc8259)
 -
 ## Ein JSON-Dokument
 ```json
 {
-  "degreeProgramme": "MALIS",
-  "module": "IT2",
-  "topics": [
-    "LZV",
-    "Web APIs",
-    "Linked Open Data"
-  ],
-  "instructor": [
-    {
-      "id": 8,
-      "name": "Adrian Pohl",
-      "affiliation": "hbz"
-    },
-    {
-      "id": 15,
-      "name": "Claudia Piesche",
-      "affiliation": "USB Köln"
-    }
-  ]
+"degreeProgramme": "MALIS",
+"module": "IT2",
+"topics": [
+  "LZV",
+  "Web APIs",
+  "Linked Open Data"
+],
+"instructor": [
+  {
+    "id": 8,
+    "name": "Adrian Pohl",
+    "affiliation": "hbz"
+  },
+  {
+    "id": 15,
+    "name": "Claudia Piesche",
+    "affiliation": "USB Köln"
+  }
+]
 }
 ```
 ## Das gleiche Dokument
@@ -86,37 +88,37 @@ Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Mensche
 ## Fehler 1
 ```json
 {
-  "Hello": "World"
+"Hello": "World"
 ```
 ## Fehler 2
 ```json
 {
-  "degreeProgramme": "MALIS21"
-  "module": "IT2"
+"degreeProgramme": "MALIS21"
+"module": "IT2"
 }
 ```
 ## Fehler 3
 ```json
 {
-  "degreeProgramme": "MALIS21",
-  "module: "IT2"
+"degreeProgramme": "MALIS21",
+"module: "IT2"
 }
 ```
 ## Fehler 4
 ```json
 {
-  "degreeProgramme": "MALIS21",
-  "module": "IT2",
-  "instructor": [
-    {
-      "name": "Adrian Pohl",
-      "affiliation": "hbz"
-    },
-    {
-      "name": "Claudia Piesche",
-      "affiliation": "USB Köln"
-    ]
-  }
+"degreeProgramme": "MALIS21",
+"module": "IT2",
+"instructor": [
+  {
+    "name": "Adrian Pohl",
+    "affiliation": "hbz"
+  },
+  {
+    "name": "Claudia Piesche",
+    "affiliation": "USB Köln"
+  ]
+}
 }
 ```
 ## Übung: ((8c720f03-8710-4200-adbc-cae969efc3a2))

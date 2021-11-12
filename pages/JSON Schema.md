@@ -3,22 +3,26 @@
 *  Feldnamen und -inhalte sowie die hierarchische Schachtelung eines JSON-Dokuments können beliebig gewählt werden
 * zur Beschreibung eines konkrete JSON-Datenmodells gibt es JSON Schema
 ## JSON Schema und seine Funktionen
-* https://json-schema.org/
+* [https://json-schema.org/](https://json-schema.org/)
 * Datenmodellierung
 * Dokumentation
 * Validierung von Instanzdaten
 * Generierung von Webformularen
-# Ein Beispielschema
+## Was kann JSON Schema definieren?
+* Feldnamen
+* Typen von Feldwerten (`string`, `array`, `object`, `number`, `boolean`, `null`)
+* Pflichtfeld: ja/nein (`required`)
+* Häufigkeit eines Feldes
+* Formatierung eines Strings (z.B. `uri`, `date` oder `pattern` mit Regular Expression)
+## Ein Beispielschema
 URL: https://malis21.acka47.net/assets/beispielschema.json
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://malis21.acka47.net/data/beispielschema.json",
   "title": "Beispielressource",
   "description": "Dies ist ein generisches Schema zur Beschreibung einer Webressource mit schema.org",
   "type": "object",
-  "default": {
-    "@context": "https://schema.org"
-  },
   "properties": {
     "@context": {
       "type": "string",
@@ -30,9 +34,8 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
       "format": "uri"
     },
     "type": {
-      "title": "Type",
+      "title": "Typ",
       "type": "string",
-      "default": "CreativeWork",
       "enum": [
         "3DModel",
         "AmpStory",
@@ -128,11 +131,11 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
       ]
     },
     "name": {
-      "title": "Title",
+      "title": "Titel",
       "type": "string"
     },
     "creator": {
-      "title": "Creator",
+      "title": "Urheber",
       "type": "array",
       "items": {
         "type": "object",
@@ -162,11 +165,11 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
       }
     },
     "description": {
-      "title": "Description",
+      "title": "Beschreibung",
       "type": "string"
     },
     "about": {
-      "title": "Subject",
+      "title": "Schlagwort",
       "type": "array",
       "items": {
         "type": "object",
@@ -195,23 +198,23 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
       }
     },
     "license": {
-      "title": "License",
+      "title": "Lizenz",
       "type": "string",
       "format": "uri",
       "pattern": "^https:\/\/creativecommons.org\/(licenses|licences|publicdomain)\/.*"
     },
     "image": {
-      "title": "Image",
+      "title": "Bild",
       "type": "string",
       "format": "uri"
     },
-    "dateCreated": {
-      "title": "Creation Date",
+    "datePublished": {
+      "title": "Publikationsdatum",
       "type": "string",
       "format": "date"
     },
     "inLanguage": {
-      "title": "Language",
+      "title": "Sprache",
       "type": "string",
       "enum": [
         "en",
@@ -226,35 +229,32 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
     },
     "publisher": {
       "title": "Publisher",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "type": {
-            "title": "Type",
-            "type": "string",
-            "enum": [
-              "Organization"
-            ]
-          },
-          "id": {
-            "title": "URL",
-            "type": "string",
-            "format": "uri"
-          },
-          "name": {
-            "title": "Name",
-            "type": "string"
-          }
+      "type": "object",
+      "properties": {
+        "type": {
+          "title": "Type",
+          "type": "string",
+          "enum": [
+            "Organization"
+          ]
         },
-        "required": [
-          "name",
-          "type"
-        ]
-      }
+        "id": {
+          "title": "URL",
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ]
     },
     "isBasedOn": {
-      "title": "Based on",
+      "title": "Basiert auf",
       "type": "array",
       "items": {
         "type": "string",
@@ -269,10 +269,75 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
   ]
 }
 ```
+## Beginnen wir am Anfang
+```json
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "$id": "https://malis21.acka47.net/data/beispielschema.json",
+  "title":"Beispielressource",
+  "description":"Dies ist ein generisches Schema zur Beschreibung einer Webressource mit schema.org",
+  "type":"object",
+  "properties":{
+    ...
+  }
+}
+```
+## Beschreibung des Wurzelschemas
+* Angabe der JSON-Schema-Version: `"$schema": "http://json-schema.org/draft-07/schema#"`
+* Angabe der `$id` (muss nicht notwendigerweise eine URL sein)
+* Titel und Beschreibung des Schemas: `title`, `description`
+* Jedes JSON-Dokument ist ein Objekt: `{ "key": "value" }`, deshalb `"type": "object"`
+* Auflistung der inerhalb eines Objekts genutzten Feldnamen Objekts mit `properties`
 ## Feld mit nicht spezifiziertem String
 ```json
-    "name": {
-      "title": "Titel",
-      "type": "string"
+"name": {
+  "title": "Titel",
+  "type": "string"
+}
+```
+## Feld mit URI-formatiertem String
+```json
+    "id": {
+      "title": "URL",
+      "type": "string",
+      "format": "uri"
     },
 ```
+## Aufzählung möglicher Strings
+```json
+  "type": {
+    "title": "Type",
+    "type": "string",
+    "enum": [
+      "3DModel",
+      "AmpStory",
+      "Article",
+      ...
+    ]
+  }
+```
+## Objekt als Wert
+```json
+"publisher": {
+      "title": "Publisher",
+      "type": "object",
+      "properties": {
+        ...
+      }
+    }
+```
+## Array als Wert
+```json
+"creator": {
+    "title": "Urheber",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        ...
+      }
+    }
+}
+```
+## Lust auf mehr JSON Schema?
+-> Aufgabe 2.1
