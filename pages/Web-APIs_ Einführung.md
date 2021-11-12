@@ -19,8 +19,11 @@ deutsch: Programmierschnittstellen
 ![lobid-data.png](../assets/lobid-data.png)
 ## Und wie APIs im Web bereitstellen? 
 * heutzutage meist [[JSON]] über [[HTTP]] 
-* können anwendungsspezifisch sein (vgl. [lobid](https://lobid.org))
-* oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA))
+* De-facto Standard für Daten im Web, siehe z.B. Target, Sinclair (2017): The Rise and Rise of JSON. URL: https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html
+## Anwendungsspezifisch oder standardisiert 
+* APIs können anwendungsspezifisch sein (vgl. [lobid](https://lobid.org))
+* oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA)) oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA), [Reconciliation Service API](https://reconciliation-api.github.io/specs/latest/))
+* Standardisierte APIs ermöglichen Nutzung von 3rd-Party-Software, z.B. [Mirador Viewer](https://projectmirador.org/), [OpenRefine für Datenabgleich](https://openrefine.org/)
 - Bloße Lese-APIs (lassen sich gut mit [[Suchmaschinentechnologie]] umsetzen)
   vs.
   vollständige Unterstützung von CRUD-Operationen: Create, Read, Update, Delete
@@ -38,6 +41,7 @@ urn:example:animal:ferret:nose
 ## Basis von Web-APIs: URIs & HTTP
 * Path: Welche API-Endpoints gibt es?
 * Parameter: z.B. `q` oder `search` für Suchabfragen oder `from`/`page` und `size` für Paging und Anzahl der Suchergebnisse
+* Beispiel: https://lobid.org/gnd/search?q=Köln&filter=type:PlaceOrGeographicName&size=50&from=100&format=html
 ## HTTP-Methoden & ihre Funktionen
 Create: POST (manchmal PUT)
 Read: GET
@@ -81,9 +85,6 @@ Delete: DELETE
 {"degreeProgramme":"MALIS","module":"IT2","topics":["LZV","Web APIs","Linked Open Data"],"instructor":[{"id":8,"name":"Adrian Pohl","affiliation":"hbz"},{"id":15,"name":"Claudia Piesche","affiliation":"USB Köln"}]}
 ```
 Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Menschen und werden beim Lesen durch Maschinen weggekürzt.
-## De-facto Standard für Daten im Web
-* JSON über [[HTTP]] ist  seit langem *der* Standard für Web APIs, mit dem jede:r Entwickler:in vertraut ist 
-* SIehe z.B. Target, Sinclair (2017): The Rise and Rise of JSON. URL: https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html
 ## Übung: JSON-Fehler erkennen
 ## Fehler 1
 ```json
@@ -123,11 +124,11 @@ Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Mensche
 ```
 ## Übung: ((8c720f03-8710-4200-adbc-cae969efc3a2))
 ## Website + API vs. Website = API
-* Manchmal ist die API integraler Bestandteil einer Website, manchmal ist sie separat (siehe auch [Verborg, Ruben (2013): The lie of the API](https://ruben.verborgh.org/blog/2013/11/29/the-lie-of-the-api/))
+* Manchmal ist die API integraler Bestandteil einer Website, manchmal ist sie separat
 * Leichtes Umschalten zwischen HTML und JSON kann sehr nützlich sein, sowohl für das Entwicklungsteam als auch für Nutzer\*innen
 * Je nach Komplexität des Systems und den angebotenen Funktionen können separate APIs sinnvoll sein.
 ## Beispiel 1: Open Textbook Library
-siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API identisch sind, nur wahlweise HTML oder JSON liefern
+siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API identisch sind und wahlweise HTML oder JSON liefern
 ## Beispiel 2: lobid
 https://lobid.org/resources/search?q=MALIS
 vs.

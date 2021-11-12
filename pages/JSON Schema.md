@@ -13,7 +13,7 @@
 * Typen von Feldwerten (`string`, `array`, `object`, `number`, `boolean`, `null`)
 * Pflichtfeld: ja/nein (`required`)
 * Häufigkeit eines Feldes
-* Formatierung eines Strings (z.B. `uri`, `date` oder `pattern` mit Regular Expression)
+* Formatierung eines Strings (z.B. `uri`, `date`; oder `pattern` plus Regular Expression)
 ## Ein Beispielschema
 URL: https://malis21.acka47.net/assets/beispielschema.json
 ```json
@@ -283,11 +283,11 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
 }
 ```
 ## Beschreibung des Wurzelschemas
-* Angabe der JSON-Schema-Version: `"$schema": "http://json-schema.org/draft-07/schema#"`
+* Angabe der JSON-Schema-Version mit `"$schema"`
 * Angabe der `$id` (muss nicht notwendigerweise eine URL sein)
 * Titel und Beschreibung des Schemas: `title`, `description`
-* Jedes JSON-Dokument ist ein Objekt: `{ "key": "value" }`, deshalb `"type": "object"`
-* Auflistung der inerhalb eines Objekts genutzten Feldnamen Objekts mit `properties`
+* Jedes JSON-Dokument ist ein Objekt (`{ "key": "value" }`), deshalb `"type": "object"`
+* Auflistung der genutzten Feldnamen mit `properties`
 ## Feld mit nicht spezifiziertem String
 ```json
 "name": {
@@ -297,11 +297,11 @@ URL: https://malis21.acka47.net/assets/beispielschema.json
 ```
 ## Feld mit URI-formatiertem String
 ```json
-    "id": {
-      "title": "URL",
-      "type": "string",
-      "format": "uri"
-    },
+"id": {
+  "title": "URL",
+  "type": "string",
+  "format": "uri"
+}
 ```
 ## Aufzählung möglicher Strings
 ```json

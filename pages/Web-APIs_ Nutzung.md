@@ -35,5 +35,5 @@ Für die Nutzung einer API ist die Dokumentation essentiell, um die Funktionalit
 * `$ curl "https://lobid.org/resources/search?q=%22MALIS%22+AND+K%C3%B6ln&size=50" | jq -r .member[].contribution[0].agent.label | sort | uniq -c | sort -nr`
 * `sort` = sortieren nach Alphabet, `uniq -c`= entferne dublette Strings und zähle (`-c`, count) das Gesamtvorkommen, `sort -nr` = nummerische Sortierung (`n`), umgedreht (`r`, reverse)
 ## lobid-gnd
-* Siehe [Blogpost zur Formulierung komplexer Suchanfragen](https://blog.lobid.org/2018/07/06/lobid-gnd-queries.html)
-*
+* 
+* Siehe auch [Blogpost zur Formulierung komplexer Suchanfragen](https://blog.lobid.org/2018/07/06/lobid-gnd-queries.html)
