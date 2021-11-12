@@ -31,9 +31,13 @@ Für die Nutzung einer API ist die Dokumentation essentiell, um die Funktionalit
 * die Subjects: `$ curl -H "accept: application/json" "https://open.umn.edu/opentextbooks/textbooks" | jq .data[].subjects[].name`
 ## Übung: ((61764d87-de9b-44a0-b6b0-5fd5bdb2b1d5))
 ## lobid-resources
-* `$ curl "https://lobid.org/resources/search?q=%22MALIS%22+AND+K%C3%B6ln&size=50" | jq -r .member[].contribution[0].agent.label ` -> Der Name der 1. beitragenden Person von Titeln, die  "MALIS" und "Köln" enthalten
-* `$ curl "https://lobid.org/resources/search?q=%22MALIS%22+AND+K%C3%B6ln&size=50" | jq -r .member[].contribution[0].agent.label | sort | uniq -c | sort -nr`
-* `sort` = sortieren nach Alphabet, `uniq -c`= entferne dublette Strings und zähle (`-c`, count) das Gesamtvorkommen, `sort -nr` = nummerische Sortierung (`n`), umgedreht (`r`, reverse)
-## lobid-gnd
-* 
-* Siehe auch [Blogpost zur Formulierung komplexer Suchanfragen](https://blog.lobid.org/2018/07/06/lobid-gnd-queries.html)
+
+`$ curl "https://lobid.org/resources/search?q=MALIS+AND+Köln&size=50" | jq -r .member[].contribution[0].agent.label `
+
+-> Name der 1. beitragenden Person von Titeln mit  "MALIS" und "Köln"
+## Sortierung und Zählung von Dubletten
+
+* `$ ... | sort | uniq -c | sort -nr`
+* `sort`: sortieren nach Alphabet
+* `uniq -c`: entferne dublette Strings und zähle (`-c`, count) das Gesamtvorkommen
+* `sort -nr`: nummerische Sortierung (`n`), umgedreht (`r`, reverse)
