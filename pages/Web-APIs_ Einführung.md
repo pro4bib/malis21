@@ -59,32 +59,32 @@ Delete: DELETE
 ## Ein JSON-Dokument
 ```json
 {
-"degreeProgramme": "MALIS",
-"module": "IT2",
-"topics": [
-  "LZV",
-  "Web APIs",
-  "Linked Open Data"
-],
-"instructor": [
-  {
-    "id": 8,
-    "name": "Adrian Pohl",
-    "affiliation": "hbz"
-  },
-  {
-    "id": 15,
-    "name": "Claudia Piesche",
-    "affiliation": "USB Köln"
-  }
-]
+   "degreeProgramme":"MALIS",
+   "module":"IT2",
+   "topics":[
+      "LZV",
+      "Web APIs",
+      "Linked Open Data"
+   ],
+   "instructor":[
+      {
+         "id":8,
+         "name":"Adrian Pohl",
+         "affiliation":"hbz"
+      },
+      {
+         "id":15,
+         "name":"Claudia Piesche",
+         "affiliation":"USB Köln"
+      }
+   ]
 }
 ```
 ## Das gleiche Dokument
 ```json
 {"degreeProgramme":"MALIS","module":"IT2","topics":["LZV","Web APIs","Linked Open Data"],"instructor":[{"id":8,"name":"Adrian Pohl","affiliation":"hbz"},{"id":15,"name":"Claudia Piesche","affiliation":"USB Köln"}]}
 ```
-Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Menschen und werden beim Lesen durch Maschinen weggekürzt.
+Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit und werden beim Verarbeiten durch Maschinen weggekürzt.
 ## Übung: JSON-Fehler erkennen
 ## Fehler 1
 ```json
@@ -111,14 +111,14 @@ Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Mensche
 "degreeProgramme": "MALIS21",
 "module": "IT2",
 "instructor": [
-  {
-    "name": "Adrian Pohl",
-    "affiliation": "hbz"
-  },
-  {
-    "name": "Claudia Piesche",
-    "affiliation": "USB Köln"
-  ]
+{
+  "name": "Adrian Pohl",
+  "affiliation": "hbz"
+},
+{
+  "name": "Claudia Piesche",
+  "affiliation": "USB Köln"
+]
 }
 }
 ```
@@ -126,7 +126,7 @@ Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit durch Mensche
 ## Website + API vs. Website = API
 * Manchmal ist die API integraler Bestandteil einer Website, manchmal ist sie separat
 * Leichtes Umschalten zwischen HTML und JSON kann sehr nützlich sein, sowohl für das Entwicklungsteam als auch für Nutzer\*innen
-* Je nach Komplexität des Systems und den angebotenen Funktionen können separate APIs sinnvoll sein.
+* Je nach Komplexität des Systems und den angebotenen Funktionen können separate APIs sinnvoll sein
 ## Beispiel 1: Open Textbook Library
 siehe ((870fc3ef-9689-42ad-9707-7c169c4b72e1)), wo Webseite und API identisch sind und wahlweise HTML oder JSON liefern
 ## Beispiel 2: lobid
