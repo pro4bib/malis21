@@ -4,7 +4,15 @@ In diesem Repo erstellt Adrian Pohl die Materialien für den von ihm geleiteten 
 
 ## Das Lehr- und Lernmaterial
 
-Für die Erstellung und Präsentation der Lehr- und Lernmaterialien wird das Personal-Knowledge-Management-Werkzeug [logseq](https://logseq.com) verwendet. Zum Anpassen und Anschauen der Materialien empfiehlt sich der Download von logseq: https://github.com/logseq/logseq/releases
+### Folien
+
+Die Präsentationsfolien zu den Lehrveranstaltungen können online abgerufen werden: [https://malis21.acka47.net/slides/](https://malis21.acka47.net/slides/).
+
+Die Quellen finden sich im `/slides`-Ordner als Markdown-Dateien (in `/slides/markdown`) und im `pages`-Branch als – mit [reveal-md](https://github.com/webpro/reveal-md) gebaute – HTML-Version. 
+
+### logseq-Graph
+
+Für die initiale Erstellung der Lehr- und Lernmaterialien wird das Personal-Knowledge-Management-Werkzeug [logseq](https://logseq.com) verwendet. Zum Anpassen und Anschauen der Materialien empfiehlt sich der Download von logseq: https://github.com/logseq/logseq/releases
 
 Außerdem können die Inhalte auf dieser statischen HTML-Seite im Webbrowser angeschaut werden: https://malis21.acka47.net
 
@@ -25,6 +33,7 @@ Die Studierenden sind in der Lage die Unterschiede zwischen verschiedenen Suchma
 Indem sie die aktuellen Entwicklungen von Webtechnologien analysieren, die aktuellen Anwendungserfordernisse von Informationseinrichtungen vergleichen und deren Eignung für zukünftige Anwendungen in Bibliotheken und anderen Informationseinrichtungen einschätzen sowie die konzeptionellen und operativen Erfahrungen ... auf den konkreten Kontext beziehen und anwenden.
 
 ### Inhalte des Teilmoduls
+
 - Suchtechnologien: Relationale Datenbanken, Metasuchsysteme, Katalogsuchmaschinen und Discovery Systeme
 - Analyse und Bewertung von kommerziellen und nicht-kommerziellen Suchsystemen
 - Bibliotheksportale: technische u. organisatorische Anforderungen zur Bereitstellung von Print- und E-Medien unter einer Oberfläche
@@ -33,6 +42,7 @@ Indem sie die aktuellen Entwicklungen von Webtechnologien analysieren, die aktue
 - Semantic Web und Linked Open Data im Bibliotheksumfeld
 
 ### Lehr- und Lernmethoden
+
 - Seminaristischer Unterricht mit einführendem Überblick unter Verwendung von Präsentationen und weiteren digital bereitgestellten Lehrmaterialien
 - Selbststudium eines Skriptes sowie grundlegender Literatur zu den genannten Themen
 - Übungsaufgaben und Kommunikation via Lernplattform (E-Mail, Wiki, Forum)
