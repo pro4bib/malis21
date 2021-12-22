@@ -1,0 +1,4 @@
+digraph G {
+rankdir=LR;
+"Subjekt"->"Objekt" [label="Prädikat"]
+}

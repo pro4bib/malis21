@@ -15,11 +15,12 @@
 - [[Web-APIs: Einführung]]
 - [[Web-APIs: Nutzung]]
 - [[JSON Schema]]
+- [[Semantic Web & Linked Open Data]]
 - [[Übungen]]
 - Aufgaben
 	- [[Aufgabe 1.1: Erstellung eines JSON-Schemas zur Validierung vorgegebener Beispieldaten]]
 	- [[Aufgabe 1.2: Konzeption einer Prozessoptimierung]]
-- [[Lernmaterial]]
+- [[Folien]]
+- [[Weiterführendes Lernmaterial]]
 - [[Installationstipps]]
 - [[Lizenz]]
--

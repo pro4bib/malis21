@@ -26,4 +26,10 @@ id:: 6164a03d-1fba-472c-865c-e668bd6ab2f1
   * **Aufgabe**:
     1.) Finden Sie in der API Doku ([hier](https://open.umn.edu/opentextbooks/discovery) verlinkt) die URL für die Liste der neuesten Bücher heraus.
     2.) Holen Sie mit curl die JSON-Daten und filtern Sie mit jq das Feld mit dem Copyright-Jahr.
+- ## Titel-URL speichern/verschicken
+  id:: 61c341e4-ccd1-4a33-93b9-8c62e281a470
+  Verschicken Sie einen Link zum Buch "With Reference to Reference" von Catherine Elgin:
+  1. OPAC -> http://okeanos-www.hbz-nrw.de/F
+  2. lobid-resources: https://lobid.org/resources
 - ## Index inspizieren
+  -> https://malis21.acka47.net/data/index-hochschulfaechersystematik-de.json

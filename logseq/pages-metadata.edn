@@ -1,16 +1,6 @@
 [{:block/name "a",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
- {:block/name "allgemeine informationen",
-  :block/created-at 1634017470735,
-  :block/updated-at 1634020568854}
- {:block/name
-  "aufgabe 1.1: erstellung eines json-schemas zur validierung vorgegebener beispieldaten",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
- {:block/name "aufgabe 1.2: konzeption einer prozessoptimierung",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
  {:block/name "b",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
@@ -21,20 +11,8 @@
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "contents",
-  :block/created-at 1635365243396,
-  :block/updated-at 1636313808591}
- {:block/name "css",
-  :block/created-at 1633893527813,
-  :block/updated-at 1634018733025}
- {:block/name "das web",
-  :block/created-at 1636367589613,
-  :block/updated-at 1636367589613}
- {:block/name "datenmodelle & profile",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
- {:block/name "datenstrukturen und -formate",
-  :block/created-at 1636313697568,
-  :block/updated-at 1636313699447}
+  :block/created-at 1640177575022,
+  :block/updated-at 1640177575022}
  {:block/name "doing",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
@@ -42,89 +20,29 @@
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "favorites",
-  :block/created-at 1640163996148,
-  :block/updated-at 1640163996148}
- {:block/name "folien zur ersten präsenzphase",
-  :block/created-at 1640163996148,
-  :block/updated-at 1640163996148}
- {:block/name "folien zur zweiten präsenzphase",
-  :block/created-at 1640163996148,
-  :block/updated-at 1640163996148}
- {:block/name "html",
-  :block/created-at 1636367589613,
-  :block/updated-at 1636367589613}
- {:block/name "http",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
+  :block/created-at 1640177575022,
+  :block/updated-at 1640177575022}
  {:block/name "in-progress",
   :block/created-at 1633892225412,
   :block/updated-at 1633892225412}
- {:block/name "installationstipps",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
- {:block/name "javascript",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
  {:block/name "json",
-  :block/created-at 1640163996149,
-  :block/updated-at 1640163996149}
- {:block/name "json schema",
-  :block/created-at 1633893527813,
-  :block/updated-at 1636746212441}
- {:block/name "kennenlernen",
-  :block/created-at 1636367589611,
-  :block/updated-at 1636367589611}
+  :block/created-at 1640177575021,
+  :block/updated-at 1640177575021}
  {:block/name "later",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
- {:block/name "lernmaterial",
-  :block/created-at 1636101801334,
-  :block/updated-at 1636101854332}
- {:block/name "lizenz",
-  :block/created-at 1633940285324,
-  :block/updated-at 1633940919145}
- {:block/name "netzwerkprotokolle",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
  {:block/name "now",
   :block/created-at 1633892225412,
   :block/updated-at 1633892225412}
  {:block/name "readme",
-  :block/created-at 1636367589612,
-  :block/updated-at 1636367589612}
- {:block/name "standards für metadaten",
-  :block/created-at 1636367589613,
-  :block/updated-at 1636367589613}
- {:block/name "suchmaschinentechnologie",
-  :block/created-at 1633893527808,
-  :block/updated-at 1633893527808}
- {:block/name "themenüberblick",
-  :block/created-at 1633956519842,
-  :block/updated-at 1634017781968}
+  :block/created-at 1640177575021,
+  :block/updated-at 1640177575021}
  {:block/name "todo",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
- {:block/name "todos",
-  :block/created-at 1636318543188,
-  :block/updated-at 1636794190518}
- {:block/name "uris",
-  :block/created-at 1633893527813,
-  :block/updated-at 1636099778737}
  {:block/name "wait",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "waiting",
-  :block/created-at 1633892225411,
-  :block/updated-at 1633892225411}
- {:block/name "web-apis: einführung",
-  :block/created-at 1635364553694,
-  :block/updated-at 1636794576369}
- {:block/name "web-apis: nutzung",
-  :block/created-at 1636101005014,
-  :block/updated-at 1636747277257}
- {:block/name "zeichenkodierungen",
-  :block/created-at 1634018974912,
-  :block/updated-at 1634019025234}
- {:block/name "übungen",
-  :block/created-at 1636313416878, 
-  :block/updated-at 1640163423349}]
+  :block/created-at 1633892225411, 
+  :block/updated-at 1633892225411}]
