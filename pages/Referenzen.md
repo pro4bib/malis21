@@ -1,0 +1,2 @@
+- Target, Sinclair (2017): The Rise and Rise of JSON. URL: https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html
+- Sporny, Manu (2012): The Problem with RDF and Nuclear Power. URL: http://manu.sporny.org/2012/nuclear-rdf/

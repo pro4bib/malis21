@@ -9,17 +9,16 @@ Application Programming Interface;
 deutsch: Programmierschnittstellen
 #### "ein Programmteil, der von einem Softwaresystem anderen Programmen zur Anbindung an das System zur Verfügung gestellt wird"
 ([Wikipedia](https://de.wikipedia.org/w/index.php?title=Programmierschnittstelle&oldid=215955723))
--
-  * Software baut auf APIs auf
+- * Software baut auf APIs auf
   * APIs machen Softwareentwicklung handhabbar
   * APIs ermöglichen Nutzung und Integration
   * APIs entkoppeln Anwendungen von Datenquellen, Formaten und Systemen
   * Sie ermöglichen modulare, zukunftsfähige Anwendungen
 ## Zum Beispiel lobid-Formate und -Anwendungen
 ![lobid-data.png](../assets/lobid-data.png)
-## Und wie APIs im Web bereitstellen? 
-* heutzutage meist [[JSON]] über [[HTTP]] 
-* De-facto Standard für Daten im Web, siehe z.B. Target, Sinclair (2017): The Rise and Rise of JSON. URL: https://twobithistory.org/2017/09/21/the-rise-and-rise-of-json.html
+- ## Und wie APIs im Web bereitstellen? 
+  * heutzutage meist [[JSON]] über [[HTTP]] 
+  * De-facto Standard für Daten im Web, siehe z.B. Sinclair (2017)
 ## Anwendungsspezifisch oder standardisiert 
 * APIs können anwendungsspezifisch sein (vgl. [lobid](https://lobid.org))
 * oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA)) oder auf geteilten Standards beruhen (z.B. [IIIF](https://iiif.io/), [DAIA-API](https://verbundwiki.gbv.de/display/VZG/DAIA), [Reconciliation Service API](https://reconciliation-api.github.io/specs/latest/))
@@ -59,25 +58,25 @@ Delete: DELETE
 ## Ein JSON-Dokument
 ```json
 {
-   "degreeProgramme":"MALIS",
-   "module":"IT2",
-   "topics":[
-      "LZV",
-      "Web APIs",
-      "Linked Open Data"
-   ],
-   "instructor":[
-      {
-         "id":8,
-         "name":"Adrian Pohl",
-         "affiliation":"hbz"
-      },
-      {
-         "id":15,
-         "name":"Claudia Piesche",
-         "affiliation":"USB Köln"
-      }
-   ]
+ "degreeProgramme":"MALIS",
+ "module":"IT2",
+ "topics":[
+    "LZV",
+    "Web APIs",
+    "Linked Open Data"
+ ],
+ "instructor":[
+    {
+       "id":8,
+       "name":"Adrian Pohl",
+       "affiliation":"hbz"
+    },
+    {
+       "id":15,
+       "name":"Claudia Piesche",
+       "affiliation":"USB Köln"
+    }
+ ]
 }
 ```
 ## Das gleiche Dokument
@@ -112,12 +111,12 @@ Einrückungen und Zeilenumbrüche sind nur zur besseren Lesbarkeit und werden be
 "module": "IT2",
 "instructor": [
 {
-  "name": "Adrian Pohl",
-  "affiliation": "hbz"
+"name": "Adrian Pohl",
+"affiliation": "hbz"
 },
 {
-  "name": "Claudia Piesche",
-  "affiliation": "USB Köln"
+"name": "Claudia Piesche",
+"affiliation": "USB Köln"
 ]
 }
 }
