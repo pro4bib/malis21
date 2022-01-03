@@ -16,7 +16,7 @@
 - [[Web-APIs: Nutzung]]
 - [[JSON Schema]]
 - [[Linked Open (Usable) Data]]
-- [[SKOS und SkoHub Vocabs]]
+- [[SKOS – Simple Knowledge Organization System]]
 - [[Übungen]]
 - Aufgaben
 	- [[Aufgabe 1.1: Erstellung eines JSON-Schemas zur Validierung vorgegebener Beispieldaten]]
@@ -26,3 +26,4 @@
 - [[Weiterführendes Lernmaterial]]
 - [[Installationstipps]]
 - [[Lizenz]]
+- [[Credits]]

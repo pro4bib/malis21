@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/name">
+  <schema:Person rdf:about="https://orcid.org/0000-0001-9083-7442">
+    <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q28134421"/>
+    <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q341"/>
+    <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q380962"/>
+    <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q466"/>
+    <foaf:interest rdf:resource="http://www.wikidata.org/entity/Q56298524"/>
+    <schema:name xml:lang="de">Adrian</schema:name>
+  </schema:Person>
+</rdf:RDF>

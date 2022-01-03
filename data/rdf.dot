@@ -1,0 +1,28 @@
+digraph {
+	rankdir = LR;
+	charset="utf-8";
+
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rschema:Person" [ label="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "LAdrian|Language: de" [ label="schema:name" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rwd:Q466" [ label="foaf:interest" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rwd:Q28134421" [ label="foaf:interest" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rwd:Q341" [ label="foaf:interest" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rwd:Q380962" [ label="foaf:interest" ];
+	"Rhttps://orcid.org/0000-0001-9083-7442" -> "Rwd:Q56298524" [ label="foaf:interest" ];
+
+	// Resources
+	"Rhttps://orcid.org/0000-0001-9083-7442" [ label="https://orcid.org/0000-0001-9083-7442", shape = ellipse, color = blue ];
+	"Rschema:Person" [ label="schema:Person", shape = ellipse, color = blue ];
+	"Rwd:Q466" [ label="wd:Q466", shape = ellipse, color = blue ];
+	"Rwd:Q28134421" [ label="wd:Q28134421", shape = ellipse, color = blue ];
+	"Rwd:Q341" [ label="wd:Q341", shape = ellipse, color = blue ];
+	"Rwd:Q380962" [ label="wd:Q380962", shape = ellipse, color = blue ];
+	"Rwd:Q56298524" [ label="wd:Q56298524", shape = ellipse, color = blue ];
+
+	// Anonymous nodes
+
+	// Literals
+	"LAdrian|Language: de" [ label="Adrian|Language: de", shape = record ];
+
+	label="\n\nModel:\n(Unknown)\n\nNamespaces:\nschema: https://schema.org/name\nfoaf: http://xmlns.com/foaf/0.1/\nwd: http://www.wikidata.org/entity/\n";
+}

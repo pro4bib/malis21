@@ -1,0 +1,3 @@
+- Bei der Erstellung dieses Kurses habe ich teilweise Formulierungen und Ansätze von Kollegen übernommen, die so nett waren, ihre Materialien im Web als Open Educational Resources oder mir per E-Mail zur Verfügung zu stellen. Danke Felix Lohmeier, Gerrit Gragert und Jakob Voß.
+  
+  Außerdem habe ich viel aus Materialien übernommen, die ich gemeinsam mit meinen Kolleg:innen für andere Tutorials, Workshops oder Vorträge erstellt habe. Danke für die stets gute Zusammenarbeit, Fabian Steeg, Pascal Christoph und Steffen Rörtgen!

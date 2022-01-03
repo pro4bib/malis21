@@ -1,0 +1,7 @@
+@prefix schema: <https://schema.org/name> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+<https://orcid.org/0000-0001-9083-7442> a schema:Person ;
+    schema:name "Adrian"@de ;
+    foaf:interest wd:Q466, wd:Q28134421, wd:Q341, wd:Q380962 , wd:Q56298524 .

@@ -16,3 +16,7 @@
 - ## LOUD
   * Pohl, Adrian / Steeg, Fabian / Christoph, Pascal (2018): lobid – Dateninfrastruktur für Bibliotheken. In: Informationspraxis 4(1). https://doi.org/10.11588/ip.2018.1.52445
   * Steeg, Fabian / Pohl, Adrian / Christoph, Pascal (2019): lobid-gnd – Eine Schnittstelle zur Gemeinsamen Normdatei für Mensch und Maschine. In: Informationspraxis 5(1). https://doi.org/10.11588/ip.2019.1.52673
+- ## SPARQL
+  * Wikidata:SPARQL tutorial: https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial
+  * Ivo Velitchkov (2020): Buckets and Balls. https://www.strategicstructures.com/?p=1889
+-
