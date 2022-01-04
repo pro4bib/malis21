@@ -1,6 +1,20 @@
 [{:block/name "a",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
+ {:block/name "allgemeine informationen",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name
+  "aufgabe 1.1: erstellung eines json-schemas zur validierung vorgegebener beispieldaten",
+  :block/created-at 1635967554158,
+  :block/updated-at 1635967609503}
+ {:block/name "aufgabe 1.2: konzeption einer prozessoptimierung",
+  :block/created-at 1635967117383,
+  :block/updated-at 1635967235685}
+ {:block/name
+  "aufgabe 1.3: aufbau und abfrage eines suchmaschinenindex",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
  {:block/name "b",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
@@ -11,8 +25,26 @@
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "contents",
-  :block/created-at 1640177575022,
-  :block/updated-at 1640177575022}
+  :block/created-at 1633892225412,
+  :block/updated-at 1636706909975}
+ {:block/name "credits",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "css",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "das web",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "datenmodelle",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "datenmodelle & profile",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "datenstrukturen und -formate",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
  {:block/name "doing",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
@@ -20,29 +52,107 @@
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "favorites",
-  :block/created-at 1640177575022,
-  :block/updated-at 1640177575022}
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "folien",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "folien zur dritten präsenzphase",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "folien zur ersten präsenzphase",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "folien zur zweiten präsenzphase",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "html",
+  :block/created-at 1633901481894,
+  :block/updated-at 1633904117563}
+ {:block/name "http",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
  {:block/name "in-progress",
   :block/created-at 1633892225412,
   :block/updated-at 1633892225412}
+ {:block/name "installationstipps",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "javascript",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
  {:block/name "json",
-  :block/created-at 1640177575021,
-  :block/updated-at 1640177575021}
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "json schema",
+  :block/created-at 1636707137802,
+  :block/updated-at 1636743917466}
+ {:block/name "kennenlernen",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
  {:block/name "later",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
+ {:block/name "lernmaterial",
+  :block/created-at 1636709770286,
+  :block/updated-at 1636710682657}
+ {:block/name "linked open (usable) data",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "lizenz",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "netzwerkprotokolle",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
  {:block/name "now",
   :block/created-at 1633892225412,
   :block/updated-at 1633892225412}
  {:block/name "readme",
-  :block/created-at 1640177575021,
-  :block/updated-at 1640177575021}
+  :block/created-at 1633892225406,
+  :block/updated-at 1633892225406}
+ {:block/name "referenzen",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "skos – simple knowledge organization system",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "standards für metadaten",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "suchmaschinentechnologie",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "themenüberblick",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
  {:block/name "todo",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
+ {:block/name "todos",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "uris",
+  :block/created-at 1633896715906,
+  :block/updated-at 1633902813960}
  {:block/name "wait",
   :block/created-at 1633892225406,
   :block/updated-at 1633892225406}
  {:block/name "waiting",
-  :block/created-at 1633892225411, 
-  :block/updated-at 1633892225411}]
+  :block/created-at 1633892225411,
+  :block/updated-at 1633892225411}
+ {:block/name "web-apis: einführung",
+  :block/created-at 1636707310897,
+  :block/updated-at 1636736113584}
+ {:block/name "web-apis: nutzung",
+  :block/created-at 1636711583827,
+  :block/updated-at 1636733675586}
+ {:block/name "weiterführendes lernmaterial",
+  :block/created-at 1641314045029,
+  :block/updated-at 1641314045029}
+ {:block/name "zeichenkodierungen",
+  :block/created-at 1641314045028,
+  :block/updated-at 1641314045028}
+ {:block/name "übungen",
+  :block/created-at 1641314045028, 
+  :block/updated-at 1641314045028}]

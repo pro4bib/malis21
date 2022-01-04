@@ -14,3 +14,6 @@
   CLOCK: [2021-11-10 Wed 20:52:27]--[2021-11-13 Sat 10:03:10] =>  61:10:43
   :END:
 - DONE Fragen, ob Aufzeichnung ok ist -> aufzeichnen
+- LATER RDFa-Beispiel in ((61d476f1-9320-458a-a227-f997a2fd800e)) ergänzen
+- LATER SPARQL-Dinge ergänzen, siehe
+-

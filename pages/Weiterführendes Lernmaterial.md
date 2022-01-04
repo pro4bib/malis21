@@ -19,4 +19,5 @@
 - ## SPARQL
   * Wikidata:SPARQL tutorial: https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial
   * Ivo Velitchkov (2020): Buckets and Balls. https://www.strategicstructures.com/?p=1889
--
+- ## SKOS
+  * [Einführung in SKOS am Beispiel von Open Educational Resources (OER)](https://dini-ag-kim.github.io/skos-einfuehrung/#/)

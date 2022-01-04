@@ -1,8 +1,9 @@
-## Grundbestandteile einer Suchmaschine
-* Datenquelle(n)
-* Index
-* Abfragesprache(n)
-* Suchoberfläche
+- ## Was haben wir denn da?
+- ## Grundbestandteile einer Suchmaschine
+  * Datenquelle(n)
+  * Index
+  * Abfragesprache(n)
+  * Suchoberfläche
 ## Datenquellen
 * strukturierte Daten
 * Volltexte
