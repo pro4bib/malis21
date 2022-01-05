@@ -14,6 +14,18 @@
   CLOCK: [2021-11-10 Wed 20:52:27]--[2021-11-13 Sat 10:03:10] =>  61:10:43
   :END:
 - DONE Fragen, ob Aufzeichnung ok ist -> aufzeichnen
-- LATER RDFa-Beispiel in ((61d476f1-9320-458a-a227-f997a2fd800e)) ergänzen
-- LATER SPARQL-Dinge ergänzen, siehe
--
+- LATER ((61d559ac-7634-4d41-be44-9211f47ef1b7))-Beispiel ergänzen
+- LATER [[SPARQL]]-Dinge ergänzen
+- NOW SkoHub-Vocabs-Dokumentation anlegen
+  :LOGBOOK:
+  CLOCK: [2022-01-05 Wed 10:04:17]
+  :END:
+- NOW [[Suchmaschinentechnologie]] fertigstellen
+  :LOGBOOK:
+  CLOCK: [2022-01-05 Wed 10:01:22]
+  :END:
+- NOW [[Aufgabe 4: Erstellung und Publikation eines SKOS-Vokabulars]] fertigstellen
+  :LOGBOOK:
+  CLOCK: [2022-01-05 Wed 10:02:24]
+  CLOCK: [2022-01-05 Wed 10:03:45]
+  :END:
